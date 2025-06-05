@@ -1,6 +1,12 @@
 Main
-  String [] = piedra, papel o tijera // opciones [0]
-  enteros = rondas // numnero de rondas 
-  String [] = nombre de los jugadores // nombre de los jugadores 
-  If = condicion // dependiendo de lo que el jugador seleccione le dara la prioridad
-  
+  int rondas, intentos, contadorPC, contadorJugador 
+  string [] opciones = piedra, papel o tijera
+  string jugada, jugadorA, jugadorB
+Repetir rondas hasta que llegue a 3 
+  mostrar "Elige piedra, papel o tijera"
+  Leer jugada
+  jugadaPC = opciones [Random (0,2)]
+Si jugada = jugadaPC entonces 
+  mostrar "Empate"
+SINO
+Si jugada = ju
