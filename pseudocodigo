@@ -1,0 +1,15 @@
+main 
+  int numeroSecreto = random(1,101)
+  int intentos = 7, numeroJugador 
+  bool adivinado = FALSE
+
+  mientras que intentos > 0 && !adivinado
+  mostrar "bienvenidda"
+  mostrar "ingrea un numero"
+  leer numeroSecreto
+  Si (numjugador < numeroSecreto)
+        --intentos
+        mostrar "demasiado bajo"
+      FinSi
+  FinMientras
+FinMain
