@@ -1,6 +1,6 @@
-using System;
+Main
 
-namespace PiedraPapelTijera
+nombre PiedraPapelTijera
 {
     class Program
     {
